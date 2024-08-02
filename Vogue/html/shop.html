@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo (2).png" type="image/x-icon">
+    <title>Vogue Store</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbarstyle.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <!-- ---------THIS IS THE NAVBAR--------- -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../index.html"><img src="../img/vogue-high-resolution-logo.png" alt=""></a>
+        </div>
+        <div class="menu">
+            <div class="menu-links">
+                <a href="../index.html">Home</a>
+                <a href="./shop.html">Shop</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./cart.html"><i class="fas fa-store-alt"></i></a>
+            </div>
+            <form action="./login.html">
+                <button class="log-in">Log In</button>
+            </form>
+        </div>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- ------------------------------------ -->
+    <!-- Page Header -->
+    <section id="page-header">
+        <h2>#NewCollection</h2>
+        <p>Save more with coupons & up to 70% off!</p>
+    </section>
+    <!----------------->
+    <!-- Products -->
+    <section class="section-p1" id="product1">
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct.html' ;">
+                <img src="../img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Slim Fit Casual Printed Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1299</h4>
+                </div>
+                <a href="cart.html"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct1.html' ;">
+                <img src="../img/products/f2.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Oversized Printed Casual Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1099</h4>
+                </div>
+                <a href="cart.html"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct.html' ;">
+                <img src="../img/products/f3.jpg" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Men Flower Printed Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹999</h4>
+                </div>
+                <a href="cart.html"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct.html' ;">
+                <img src="../img/products/f4.jpg" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>White Shirt with Printed Pink Petals</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1199</h4>
+                </div>
+                <a href="cart.html"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <!-- pagination -->
+            <section id="pagination" class="section-p1" style="margin: 0 auto;">
+                <a href="shop.html">1</a>
+                <a href="shop2.html">2</a>
+                <a href="shop3.html">3</a>
+                <a href="shop4.html">4</a>
+            </section>
+            <script lang="javascript">
+                document.addEventListener("DOMContentLoaded", function () {
+                    const menuBtn = document.querySelector(".menu-btn");
+                    const menu = document.querySelector(".menu");
+
+                    menuBtn.addEventListener("click", function () {
+                        menu.classList.toggle("active");
+                    });
+                });
+
+            </script>
+</body>
+
+</html>
